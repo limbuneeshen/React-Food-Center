@@ -1,0 +1,14 @@
+.availrestaurant{
+    color: rgb(33, 32, 32);
+    margin: 2px 68px;
+    padding: 3px;
+}
+
+.rest{
+    margin-top: 5px;
+    margin-left: 4.1%;
+    margin-right: 4.1%;
+    padding: 2px;
+    display: flex;
+    
+}
