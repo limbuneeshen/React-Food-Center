@@ -8,7 +8,7 @@ import Footer from '../../components/footer.component/footer';
 
 const HomePage=()=>(
     <div className='homepage'>
-      <img src={image} alt="Homepage" width="100%" height="700" />
+      <img src={image} alt="Homepage" width="100%" height="900" />
       <div className='search'><input type="text" placeholder="Search Here.."/><button className='buttonsearch'>Search</button></div>
       <div className='banner'>
         <Banner/>

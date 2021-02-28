@@ -6,6 +6,7 @@ import {Route} from 'react-router-dom';
 import HomePage from './pages/homepage/homepage';
 import LoginPage from './pages/loginpage/loginpage';
 import RegisterPage from './pages/registerpage/registerpage';
+import FoodmenuPage from './pages/foodmenupage/foodmenupage';
 
 const App = () => {
   return (
@@ -15,7 +16,7 @@ const App = () => {
       <Container>   
       <Route exact path='/signin' component={LoginPage}/>
       <Route exact path='/register' component={RegisterPage}/>
-    
+      <Route exact path='/foodmenu' component={FoodmenuPage}/>
 
       </Container>
     </div>
