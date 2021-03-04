@@ -1,6 +1,6 @@
 import React from 'react';
 import './foodmenu.css';
-import data from './menudata';
+// import data from '../../pages/foodmenupage/menudata';
 
 
 const FoodMenu= () => (

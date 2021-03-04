@@ -1,11 +1,14 @@
 import React from 'react';
 import './foodmenupage.css';
+import FoodBanner from '../../components/foodbanner.component/foodbanner'
+import Basket from '../../components/basket.component/basket';
+import Main from '../../components/main.component/main';
 import FoodMenu from '../../components/foodmenu.component/foodmenu';
-import data from './menudata';
+import menudata from './menudata';
 import { useState } from 'react';
 
-function FoodMenu() {
-  const {products} = data;
+function Menuitem() {
+  const {products} = menudata;
   const [cartItems, setCartItems] = useState([]);
   const onAdd = (product) => {
     const exist = cartItems.find((x)=> x.id === product.id);
@@ -32,8 +35,12 @@ function FoodMenu() {
   };
   
   return (
-    <div className="App">
-      <Header countCartItems = {cartItems.length}></Header>
+    // <div className="menuitem">
+    //   {/* <Header countCartItems = {cartItems.length}></Header> */}
+    <div className="foodpage">
+      <div> 
+    <FoodBanner/>
+    </div> 
       <div className="row">
         <Main onAdd={onAdd} products={products}></Main>
         <Basket onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Basket>
@@ -43,4 +50,4 @@ function FoodMenu() {
 }
 
  
-export default FoodmenuPage;
+export default Menuitem;
