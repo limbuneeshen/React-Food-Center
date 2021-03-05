@@ -7,6 +7,7 @@ import HomePage from './pages/homepage/homepage';
 import LoginPage from './pages/loginpage/loginpage';
 import RegisterPage from './pages/registerpage/registerpage';
 import FoodmenuPage from './pages/foodmenupage/foodmenupage';
+import AdminLogin from './pages/adminloginpage/adminloginpage';
 
 const App = () => {
   return (
@@ -18,7 +19,7 @@ const App = () => {
       <Route exact path='/signin' component={LoginPage}/>
       <Route exact path='/register' component={RegisterPage}/>
       <Route exact path='/foodmenu' component={FoodmenuPage}/>
-      
+      <Route exact path='/adminlogin' component={AdminLogin}/>
       </Container>
     </div>
     </Router>
