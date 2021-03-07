@@ -1,7 +1,7 @@
-import './adminloginpage.css';
+import './restlogin.css';
 import React from 'react';
 
-const AdminLogin=()=> (
+const RestLogin=()=> (
             <form className='loginform'>
                 <h3>Log In</h3>
 
@@ -24,8 +24,8 @@ const AdminLogin=()=> (
 
                 <button type="submit" className="btn btn-primary btn-block">Submit</button>
                 <p className="forgot-password text-right">
-                    Forgot <a href="#">password?</a>
+                    Forgot <a href="#">password?</a>                  
                 </p>
             </form>
         );
-export default AdminLogin;
+export default RestLogin;

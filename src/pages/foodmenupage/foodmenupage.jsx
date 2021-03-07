@@ -1,5 +1,6 @@
 import React from 'react';
 import './foodmenupage.css';
+import Footer from '../../components/footer.component/footer'
 import FoodBanner from '../../components/foodbanner.component/foodbanner'
 import Basket from '../../components/basket.component/basket';
 import Main from '../../components/main.component/main';
@@ -44,6 +45,9 @@ function Menuitem() {
       <div className="row">
         <Main onAdd={onAdd} products={products}></Main>
         <Basket onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Basket>
+      </div>
+      <div>
+        <Footer/>
       </div>
     </div>
   );

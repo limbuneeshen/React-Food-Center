@@ -1,5 +1,6 @@
 import React from "react";
 import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
+import {Link} from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -11,7 +12,9 @@ const Footer = () => {
             <p>
               Here you can use rows and columns here to organize your footer
               content.
-            </p>
+            </p>  
+            <Link className='option' to='/restregister'>Partner With Us</Link>
+            
           </MDBCol>
           <MDBCol md="6">
             <h5 className="title">Links</h5>
