@@ -28,6 +28,7 @@ export default function Basket(props){
        {cartItems.length !== 0 && (
            <>
            <hr></hr>
+           <div className="basketcss">
            <div className="row">
                <div className="col-2">Items Price</div>
                <div className="col-1 text-right">${itemsPrice.toFixed(2)}</div>          
@@ -49,6 +50,7 @@ export default function Basket(props){
                <button onClick={() => alert('Implement Checkout')}>
                    Checkout
                </button>
+           </div>
            </div>
            </>
        )
