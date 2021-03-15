@@ -9,6 +9,7 @@ import RegisterPage from './pages/registerpage/registerpage';
 import FoodmenuPage from './pages/foodmenupage/foodmenupage';
 import RestLogin from './pages/restloginpage/restlogin';
 import RestRegister from './pages/restresgisterpage/restregister';
+import StripeContainer from './components/payment.component/stripeContainer';
 
 const App = () => {
   return (
@@ -22,6 +23,8 @@ const App = () => {
       <Route exact path='/foodmenu' component={FoodmenuPage}/>
       <Route exact path='/restlogin' component={RestLogin}/>
       <Route exact path='/restregister' component={RestRegister}/>
+      <Route exact path='/payment' component={StripeContainer}/>
+
       </Container>
     </div>
     </Router>
