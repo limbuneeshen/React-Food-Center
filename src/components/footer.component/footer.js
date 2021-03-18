@@ -10,26 +10,25 @@ const Footer = () => {
           <MDBCol md="6">
             <h5 className="title">Food Center</h5>
             <p>
-              Here you can use rows and columns here to organize your footer
-              content.
+              Order your food and get delivered wherever you want in fastest possible time.
             </p>  
             <Link className='option' to='/restregister'>Partner With Us</Link>
             
           </MDBCol>
           <MDBCol md="6">
-            <h5 className="title">Links</h5>
+            <h5 className="title">Our Developers</h5>
             <ul>
               <li className="list-unstyled">
-                <a href="#!">Link 1</a>
+                <a href="#!">Bibek Poudyal</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 2</a>
+                <a href="#!">Neeshen Limbu</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 3</a>
+                <a href="#!">Rojin Shrestha</a>
               </li>
               <li className="list-unstyled">
-                <a href="#!">Link 4</a>
+                <a href="#!">Prashant Bhandari</a>
               </li>
             </ul>
           </MDBCol>

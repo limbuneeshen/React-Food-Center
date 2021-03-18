@@ -23,7 +23,6 @@ const App = () => {
       <Route exact path='/foodmenu' component={FoodmenuPage}/>
       <Route exact path='/restlogin' component={RestLogin}/>
       <Route exact path='/restregister' component={RestRegister}/>
-      <Route exact path='/payment' component={StripeContainer}/>
 
       </Container>
     </div>
