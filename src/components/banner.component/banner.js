@@ -12,10 +12,9 @@ const Banner = () => (
   backgroundPosition: 'center'
   
 }} >
-  <h1>Hello, world!</h1>
+  <h1>Special!</h1>
   <p>
-    This is a simple hero unit, a simple jumbotron-style component for calling
-    extra attention to featured content or information.
+   30% off in ordering food more than 1000 rs and get free delivery. Special chicken momo.
   </p>
 
 </Jumbotron>
