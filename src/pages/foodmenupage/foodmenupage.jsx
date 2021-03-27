@@ -7,6 +7,8 @@ import Main from '../../components/main.component/main';
 import FoodMenu from '../../components/foodmenu.component/foodmenu';
 import menudata from './menudata';
 import { useState } from 'react';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 
 function Menuitem() {
   const {products} = menudata;
@@ -42,11 +44,14 @@ function Menuitem() {
       <div> 
     <FoodBanner/>
     </div> 
-      <div className="row">
+    <Container>
+      <Row>
         <Main onAdd={onAdd} products={products}></Main>
         <Basket onAdd={onAdd} onRemove={onRemove} cartItems={cartItems}></Basket>
-      </div>
+        </Row>
+      </Container>
       <div>
+     
         <Footer/>
       </div>
     </div>

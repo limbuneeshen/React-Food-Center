@@ -10,7 +10,8 @@ const Aboutus=()=>(
   style={{  
     backgroundImage:  `url(${aboutimage})`,
     backgroundSize: 'cover',
-    backgroundPosition: 'center'
+    backgroundPosition: 'center',
+    height:'24rem'
   }}
   className='jum-about'
 >

@@ -1,0 +1,21 @@
+.add_btn{
+    border-radius: 50%;;
+    background-color: transparent;
+    height: 1.4rem;
+    width: 1.4rem;
+    border: 2px solid darkgreen;
+
+}
+.add_btn > p{
+    font-size: 12px;
+    font-weight: bolder;
+    color: darkgreen;
+}
+.product_name{
+    font-size: 22px;
+    
+}
+.product_price{
+    font-size: 20px;
+    
+}

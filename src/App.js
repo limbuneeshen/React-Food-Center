@@ -10,6 +10,7 @@ import FoodmenuPage from './pages/foodmenupage/foodmenupage';
 import RestLogin from './pages/restloginpage/restlogin';
 import RestRegister from './pages/restresgisterpage/restregister';
 import RestaurantPage from './pages/restcontrollerpage/restcontrollerpage';
+import Restaurantfood from './components/restcontroller.component/restaurantfood';
 
 const App = () => {
   return (
@@ -17,15 +18,16 @@ const App = () => {
     <div>
        <Header />
        <Route exact path='/' component={HomePage}/>
-      <Container>   
+ 
       <Route exact path='/signin' component={LoginPage}/>
       <Route exact path='/register' component={RegisterPage}/>
       <Route exact path='/foodmenu' component={FoodmenuPage}/>
       <Route exact path='/restlogin' component={RestLogin}/>
       <Route exact path='/restregister' component={RestRegister}/>
       <Route exact path='/restaurantpage' component={RestaurantPage}/>
+      <Route exact path='/restaurantfood' component={Restaurantfood}/>
 
-      </Container>
+ 
     </div>
     </Router>
   )

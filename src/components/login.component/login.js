@@ -6,8 +6,8 @@ const Login=()=> (
                 <h3>Sign In</h3>
 
                 <div className="form-group">
-                    <label>Username</label>
-                    <input type="text" className="form-control" placeholder="Enter username" />
+                    <label>Email:</label>
+                    <input type="email" className="form-control" placeholder="Enter email" />
                 </div>
 
                 <div className="form-group">

@@ -5,6 +5,8 @@ const RestaurantPage=()=>(
     <div>
        <h3>Restaurant Dashboard</h3>
         <RestaurantController/>
+         
+   
     </div>
 )
 export default RestaurantPage

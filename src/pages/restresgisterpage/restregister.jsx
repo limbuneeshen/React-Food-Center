@@ -30,6 +30,7 @@ class RestRegister extends React.Component {
   
         let input = {};
         input["restname"] = "";
+        input["contactname"] = "";
         input["restemail"] = "";
         input["rpassword"] = "";
         input["rconfirm_password"] = "";
@@ -47,6 +48,10 @@ class RestRegister extends React.Component {
       if (!input["restname"]) {
         isValid = false;
         errors["restname"] = "Please enter your restaurant name.";
+      }
+      if (!input["contactname"]) {
+        isValid = false;
+        errors["contactname"] = "Please enter your contact name.";
       }
   
       if (!input["restemail"]) {
@@ -102,10 +107,24 @@ class RestRegister extends React.Component {
               value={this.state.input.restname}
               onChange={this.handleChange}
               class="form-control" 
-              placeholder="Enter name" 
+              placeholder="Enter name of the restaurant" 
               id="restname" />
   
               <div className="text-danger">{this.state.errors.restname}</div>
+          </div>
+
+          <div class="form-group">
+            <label for="contactname">Contact Name:</label>
+            <input 
+              type="text" 
+              name="contactname" 
+              value={this.state.input.contactname}
+              onChange={this.handleChange}
+              class="form-control" 
+              placeholder="Enter your contact name" 
+              id="contactname" />
+  
+              <div className="text-danger">{this.state.errors.contactname}</div>
           </div>
   
           <div class="form-group">
